@@ -20,6 +20,8 @@ With this map you always can find the closest locations of filming.
 Your location is shown by green marker, and locations of filming - by
 blue markers. Red circles show capitals of all countries.
 # Example
+Please, enter coordinates in range from 0 to 90 for northern and eastern hemisperes,
+and from -90 to 0 for southern and western hemispheres.
 ```python
 >>>python film_locations.py
 Please enter a year you would like to have a map for:1930
