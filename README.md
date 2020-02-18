@@ -1,5 +1,5 @@
-# Film_locations
-Film_locations.py is a module, which provides you map with markers at the closest 
+# Film locations
+main.py is a module, which provides you map with markers at the closest 
 locations, where movies were filmed in a given year. Also capitals of all 
 countries are marked on this map. 
 # Description of HTML-file
@@ -23,7 +23,7 @@ blue markers. Red circles show capitals of all countries.
 Please, enter coordinates in range from 0 to 90 for northern and eastern hemisperes,
 and from -90 to 0 for southern and western hemispheres.
 ```python
->>>python film_locations.py
+>>>python main.py
 Please enter a year you would like to have a map for:1930
 Please enter latitude of your location 51.5074
 Please enter longitude of your location -0.1278
