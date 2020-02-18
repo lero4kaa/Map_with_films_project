@@ -66,31 +66,6 @@ def find_capitals():
     """
     () -> Series, Series
     Functions returns coordinates of all capitals in the world.
-    >>> find_capitals()
-    (0       9.550000
-    1     -54.283333
-    2     -49.350000
-    3      31.766667
-    4      60.116667
-             ...
-    240    35.183333
-    241     0.000000
-    242     0.000000
-    243    -7.300000
-    244     0.000000
-    Name: CapitalLatitude, Length: 245, dtype: float64, 0      44.050000
-
-    1     -36.500000
-    2      70.216667
-    3      35.233333
-    4      19.900000
-             ...
-    240    33.366667
-    241     0.000000
-    242     0.000000
-    243    72.400000
-    244     0.000000
-    Name: CapitalLongitude, Length: 245, dtype: float64)
     """
     data = pandas.read_csv('country-capitals.csv')
     capitals_lat = data['CapitalLatitude']
